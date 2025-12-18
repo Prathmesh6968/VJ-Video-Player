@@ -15,7 +15,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8290538383:AAE7JEL8999vSA0aMY6pMHUR4Ns4lnt
 ADMIN = int(environ.get('ADMIN', '8586799992'))
 
 # Back Up Bot Token For Fetching Message When Floodwait Comes
-BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "")
+BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "8336375630:AAFCvwdk55ulocbjr58PoklOegUhNGqlRyM")
 
 # Log Channel, In This Channel Your All File Stored.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003642951127'))
