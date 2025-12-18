@@ -9,7 +9,7 @@ API_ID = int(environ.get('API_ID', '30175499'))
 API_HASH = environ.get('API_HASH', 'a7984684bf91326fab242b3f45389f8a')
 
 # Bot Token, This Is Main Bot
-BOT_TOKEN = environ.get('BOT_TOKEN', "8290538383:AAE7JEL8999vSA0aMY6pMHUR4Ns4lntqfWU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Admin Telegram Account Id For Withdraw Notification Or Anything Else
 ADMIN = int(environ.get('ADMIN', '8586799992'))
@@ -21,10 +21,10 @@ BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "8336375630:AAFCvwdk55ulocbjr
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003642951127'))
 
 # Mongodb Database For User Link Click Count Etc Data Store.
-MONGODB_URI = environ.get("MONGODB_URI", "mongodb+srv://prathmeshcoder69_db_user:mango pass: M0XsgeHY4bnf90ta@cluster0.ngbpudu.mongodb.net/?appName=Cluster0")
+MONGODB_URI = environ.get("MONGODB_URI", "")
 
 # Stream Url Means Your Deploy Server App Url, Here You Media Will Be Stream And Ads Will Be Shown.
-STREAM_URL = environ.get("STREAM_URL", "https://animestreamhub.onrender.com/")
+STREAM_URL = environ.get("STREAM_URL", "")
 
 # This Link Used As Permanent Link That If Your Deploy App Deleted Then You Change Stream Url, So This Link Will Redirect To Stream Url.
 LINK_URL = environ.get("LINK_URL", "https://animestreamdubhindi.blogspot.com/2025/12/watch.html")
