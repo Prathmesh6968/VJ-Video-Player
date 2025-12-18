@@ -24,7 +24,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003642951127'))
 MONGODB_URI = environ.get("MONGODB_URI", "mongodb+srv://prathmeshcoder69_db_user:mango pass: M0XsgeHY4bnf90ta@cluster0.ngbpudu.mongodb.net/?appName=Cluster0")
 
 # Stream Url Means Your Deploy Server App Url, Here You Media Will Be Stream And Ads Will Be Shown.
-STREAM_URL = environ.get("STREAM_URL", "")
+STREAM_URL = environ.get("STREAM_URL", "https://animestreamhub.onrender.com/")
 
 # This Link Used As Permanent Link That If Your Deploy App Deleted Then You Change Stream Url, So This Link Will Redirect To Stream Url.
 LINK_URL = environ.get("LINK_URL", "https://animestreamdubhindi.blogspot.com/2025/12/watch.html")
