@@ -18,7 +18,7 @@ ADMIN = int(environ.get('ADMIN', '8586799992'))
 BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "8336375630:AAFCvwdk55ulocbjr58PoklOegUhNGqlRyM")
 
 # Log Channel, In This Channel Your All File Stored.
-LOG_CHANNEL = environ.get('LOG_CHANNEL', "-1003642951127")
+LOG_CHANNEL = environ.get("-1003642951127")
 
 # Mongodb Database For User Link Click Count Etc Data Store.
 MONGODB_URI = environ.get("MONGODB_URI", "")
